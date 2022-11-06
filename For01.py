@@ -1,4 +1,4 @@
-import py_compile
+
 
 
 def main(n):
@@ -9,4 +9,6 @@ def main(n):
     Returns:
         list: return  answer
     """
-    return
+    x=range(n)
+    return list(x)
+print(main(5)) 
