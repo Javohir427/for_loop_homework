@@ -9,4 +9,4 @@ def main(k,n):
     """
 
     return [k]*n
-print(main(2,4)) 
+print(main(-1,4)) 
