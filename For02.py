@@ -8,7 +8,10 @@ def main(n):
     """
     ans = ''
     for i in range(n):
-        ans+=','+str(i)
+        if i==0:
+            ans+=''+str(i)
+        else :   
+           ans+=','+str(i)
     return ans
 print(main(4))
    
