@@ -7,4 +7,6 @@ def main(A,B):
     Returns:
         list: return  answer
     """
-    return
+    x = range(B,A+1)
+    return list (x)
+print(main(6,4))
