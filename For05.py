@@ -9,4 +9,4 @@ def main(A,B):
     """
     x = range(B,A+1)
     return list (x)
-print(main(6,2))
+print(main(6,2))    
